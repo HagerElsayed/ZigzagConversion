@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041648D028BBCFD6007A06EF /* ZigzagConversionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041648CF28BBCFD6007A06EF /* ZigzagConversionApp.swift */; };
+		041648D228BBCFD6007A06EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041648D128BBCFD6007A06EF /* ContentView.swift */; };
+		041648D428BBCFD9007A06EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041648D328BBCFD9007A06EF /* Assets.xcassets */; };
+		041648D728BBCFD9007A06EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041648D628BBCFD9007A06EF /* Preview Assets.xcassets */; };
+		041648DF28BBDD01007A06EF /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041648DE28BBDD01007A06EF /* Color+Extension.swift */; };
+		041648E228BBDD73007A06EF /* zigzagBanner.png in Resources */ = {isa = PBXBuildFile; fileRef = 041648E128BBDD73007A06EF /* zigzagBanner.png */; };
+		04670DD628BE6D9800DF457A /* ZigzagShape.png in Resources */ = {isa = PBXBuildFile; fileRef = 04670DD528BE6D9800DF457A /* ZigzagShape.png */; };
+		04F0131828BD1D3200744B24 /* ZigzagConvertor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0131728BD1D3200744B24 /* ZigzagConvertor.swift */; };
+		04F0131A28BD1E8A00744B24 /* ZigzagConvertorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0131928BD1E8A00744B24 /* ZigzagConvertorViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		041648CC28BBCFD6007A06EF /* ZigzagConversion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZigzagConversion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		041648CF28BBCFD6007A06EF /* ZigzagConversionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigzagConversionApp.swift; sourceTree = "<group>"; };
+		041648D128BBCFD6007A06EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		041648D328BBCFD9007A06EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		041648D628BBCFD9007A06EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		041648DE28BBDD01007A06EF /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		041648E128BBDD73007A06EF /* zigzagBanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zigzagBanner.png; sourceTree = "<group>"; };
+		04670DD528BE6D9800DF457A /* ZigzagShape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZigzagShape.png; sourceTree = "<group>"; };
+		04F0131728BD1D3200744B24 /* ZigzagConvertor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigzagConvertor.swift; sourceTree = "<group>"; };
+		04F0131928BD1E8A00744B24 /* ZigzagConvertorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigzagConvertorViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041648C928BBCFD6007A06EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041648C328BBCFD6007A06EF = {
+			isa = PBXGroup;
+			children = (
+				041648CE28BBCFD6007A06EF /* ZigzagConversion */,
+				041648CD28BBCFD6007A06EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		041648CD28BBCFD6007A06EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				041648CC28BBCFD6007A06EF /* ZigzagConversion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		041648CE28BBCFD6007A06EF /* ZigzagConversion */ = {
+			isa = PBXGroup;
+			children = (
+				041648E028BBDD3B007A06EF /* Resources */,
+				041648DD28BBDCC0007A06EF /* extension */,
+				041648CF28BBCFD6007A06EF /* ZigzagConversionApp.swift */,
+				04F0131728BD1D3200744B24 /* ZigzagConvertor.swift */,
+				041648D128BBCFD6007A06EF /* ContentView.swift */,
+				041648D328BBCFD9007A06EF /* Assets.xcassets */,
+				041648D528BBCFD9007A06EF /* Preview Content */,
+				04F0131928BD1E8A00744B24 /* ZigzagConvertorViewModel.swift */,
+			);
+			path = ZigzagConversion;
+			sourceTree = "<group>";
+		};
+		041648D528BBCFD9007A06EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				041648D628BBCFD9007A06EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		041648DD28BBDCC0007A06EF /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				041648DE28BBDD01007A06EF /* Color+Extension.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		041648E028BBDD3B007A06EF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04670DD528BE6D9800DF457A /* ZigzagShape.png */,
+				041648E128BBDD73007A06EF /* zigzagBanner.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		041648CB28BBCFD6007A06EF /* ZigzagConversion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041648DA28BBCFD9007A06EF /* Build configuration list for PBXNativeTarget "ZigzagConversion" */;
+			buildPhases = (
+				041648C828BBCFD6007A06EF /* Sources */,
+				041648C928BBCFD6007A06EF /* Frameworks */,
+				041648CA28BBCFD6007A06EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZigzagConversion;
+			productName = ZigzagConversion;
+			productReference = 041648CC28BBCFD6007A06EF /* ZigzagConversion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041648C428BBCFD6007A06EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					041648CB28BBCFD6007A06EF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 041648C728BBCFD6007A06EF /* Build configuration list for PBXProject "ZigzagConversion" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 041648C328BBCFD6007A06EF;
+			productRefGroup = 041648CD28BBCFD6007A06EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				041648CB28BBCFD6007A06EF /* ZigzagConversion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		041648CA28BBCFD6007A06EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04670DD628BE6D9800DF457A /* ZigzagShape.png in Resources */,
+				041648D728BBCFD9007A06EF /* Preview Assets.xcassets in Resources */,
+				041648D428BBCFD9007A06EF /* Assets.xcassets in Resources */,
+				041648E228BBDD73007A06EF /* zigzagBanner.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041648C828BBCFD6007A06EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041648D228BBCFD6007A06EF /* ContentView.swift in Sources */,
+				041648DF28BBDD01007A06EF /* Color+Extension.swift in Sources */,
+				04F0131828BD1D3200744B24 /* ZigzagConvertor.swift in Sources */,
+				041648D028BBCFD6007A06EF /* ZigzagConversionApp.swift in Sources */,
+				04F0131A28BD1E8A00744B24 /* ZigzagConvertorViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		041648D828BBCFD9007A06EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		041648D928BBCFD9007A06EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		041648DB28BBCFD9007A06EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZigzagConversion/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mac.ZigzagConversion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		041648DC28BBCFD9007A06EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZigzagConversion/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mac.ZigzagConversion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041648C728BBCFD6007A06EF /* Build configuration list for PBXProject "ZigzagConversion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041648D828BBCFD9007A06EF /* Debug */,
+				041648D928BBCFD9007A06EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041648DA28BBCFD9007A06EF /* Build configuration list for PBXNativeTarget "ZigzagConversion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041648DB28BBCFD9007A06EF /* Debug */,
+				041648DC28BBCFD9007A06EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 041648C428BBCFD6007A06EF /* Project object */;
+}
