@@ -64,11 +64,11 @@
 				041648E028BBDD3B007A06EF /* Resources */,
 				041648DD28BBDCC0007A06EF /* extension */,
 				041648CF28BBCFD6007A06EF /* ZigzagConversionApp.swift */,
+				04F0131928BD1E8A00744B24 /* ZigzagConvertorViewModel.swift */,
 				04F0131728BD1D3200744B24 /* ZigzagConvertor.swift */,
 				041648D128BBCFD6007A06EF /* ContentView.swift */,
 				041648D328BBCFD9007A06EF /* Assets.xcassets */,
 				041648D528BBCFD9007A06EF /* Preview Content */,
-				04F0131928BD1E8A00744B24 /* ZigzagConvertorViewModel.swift */,
 			);
 			path = ZigzagConversion;
 			sourceTree = "<group>";
